@@ -40,6 +40,10 @@ public class Student {
         this.rok_studiow=rok_studiow;
         this.specjalnosc=specjalnosc;
     }
+
+    Student(String imie, String nazwisko, int nr_indeksu, String specjalnosc, int rok_studiow) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public void DaneStudenta(){
         System.out.println("Imie: "+this.imie);
